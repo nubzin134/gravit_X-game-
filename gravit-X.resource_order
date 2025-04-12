@@ -1,0 +1,12 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_lighit","order":3,"path":"objects/obj_lighit/obj_lighit.yy",},
+    {"name":"obj_spike","order":2,"path":"objects/obj_spike/obj_spike.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"rm_game_2","order":1,"path":"rooms/rm_game_2/rm_game_2.yy",},
+    {"name":"spr_lighit","order":3,"path":"sprites/spr_lighit/spr_lighit.yy",},
+    {"name":"spr_spike","order":2,"path":"sprites/spr_spike/spr_spike.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+  ],
+}
