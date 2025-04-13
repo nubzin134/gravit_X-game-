@@ -38,9 +38,6 @@
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
-    {"id":{"name":"rm_game_3","path":"rooms/rm_game_3/rm_game_3.yy",},},
-    {"id":{"name":"rm_game_4","path":"rooms/rm_game_4/rm_game_4.yy",},},
-    {"id":{"name":"rm_game_5","path":"rooms/rm_game_5/rm_game_5.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"spr_lighit","path":"sprites/spr_lighit/spr_lighit.yy",},},
@@ -53,9 +50,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
-    {"roomId":{"name":"rm_game_3","path":"rooms/rm_game_3/rm_game_3.yy",},},
-    {"roomId":{"name":"rm_game_4","path":"rooms/rm_game_4/rm_game_4.yy",},},
-    {"roomId":{"name":"rm_game_5","path":"rooms/rm_game_5/rm_game_5.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
