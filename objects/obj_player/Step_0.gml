@@ -1,4 +1,4 @@
- // --- Inversão de gravidade com a tecla X ---
+// --- Inversão de gravidade com a tecla X ---
 if (keyboard_check_pressed(ord("X"))) {
     grav_invertida = !grav_invertida;
     grv *= -1;
@@ -62,9 +62,30 @@ if (key_jump && coyote_time > 0) {
     vspd += grav_invertida ? jump_height : -jump_height;
 }
 
+// --- Troca de sala quando o obj_lighit não existir ---
 if (!instance_exists(obj_lighit)) {
     var proxima = room_next(room);
     if (proxima != -1) {
         room_goto(proxima);
     }
 }
+
+// --- Troca de sprite dependendo da gravidade e movimento ---
+if (grav_invertida) {
+    if (move) {
+        sprite_index = spr_player_walk_X;
+        image_speed = 0.2;
+    } else {
+        sprite_index = spr_player_idle_X;
+        image_speed = 0;
+    }
+} else {
+    if (move) {
+        sprite_index = spr_player_walk;
+        image_speed = 0.2;
+    } else {
+        sprite_index = spr_player_idle;
+        image_speed = 0;
+    }
+}
+
